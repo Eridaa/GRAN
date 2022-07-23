@@ -97,7 +97,7 @@ def draw_graph_list_separate(G_list,
           G,
           pos,
           node_size=1.5,
-          node_color=black',
+          node_color='black',
           alpha=1,
           linewidths=0.2,
           font_size=1.5)
