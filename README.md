@@ -5,16 +5,6 @@ PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Atten
 
 ### Run the Dataset creation from osmnx.ipynb notebook for creating custom datasets.
 
-```
-@inproceedings{liao2019gran,
-  title={Efficient Graph Generation with Graph Recurrent Attention Networks}, 
-  author={Liao, Renjie and Li, Yujia and Song, Yang and Wang, Shenlong and Nash, Charlie and Hamilton, William L. and Duvenaud, David and Urtasun, Raquel and Zemel, Richard}, 
-  booktitle={NeurIPS},
-  year={2019}
-}
-```
-
-
 ## Dependencies
 Python 3, PyTorch(1.2.0)
 
@@ -49,4 +39,17 @@ Other dependencies can be installed via
 **Note**:
 
 * Please check the [evaluation](https://github.com/JiaxuanYou/graph-generation) to set up.
+
+
+
+```
+@inproceedings{liao2019gran,
+  title={Efficient Graph Generation with Graph Recurrent Attention Networks}, 
+  author={Liao, Renjie and Li, Yujia and Song, Yang and Wang, Shenlong and Nash, Charlie and Hamilton, William L. and Duvenaud, David and Urtasun, Raquel and Zemel, Richard}, 
+  booktitle={NeurIPS},
+  year={2019}
+}
+```
+
+
 
