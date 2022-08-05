@@ -1,7 +1,7 @@
 
 # GRAN
 
-This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:
+PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks, tested for generating street networks
 
 ```
 @inproceedings{liao2019gran,
@@ -11,15 +11,6 @@ This is the official PyTorch implementation of [Efficient Graph Generation with 
   year={2019}
 }
 ```
-
-## Visualization
-
-### Generation of GRAN per step:
-![](http://www.cs.toronto.edu/~rjliao/imgs/gran_model.gif)
-
-
-### Overall generation process:
-<img src="http://www.cs.toronto.edu/~rjliao/imgs/gran_generation.gif" height="400px" width="550px" />
 
 
 ## Dependencies
@@ -57,21 +48,3 @@ Other dependencies can be installed via
 
 * Please check the [evaluation](https://github.com/JiaxuanYou/graph-generation) to set up.
 
-### Trained Models
-* You could use our trained model for comparisons. Please make sure you are using the same split of the dataset. Running the following script will download the trained model:
-
-	```./download_model.sh```	
-
-## Sampled Graphs from GRAN
-
-* Proteins Graphs from Training Set:
-![](http://www.cs.toronto.edu/~rjliao/imgs/protein_train.png)
-
-* Proteins Graphs Sampled from GRAN:
-![](http://www.cs.toronto.edu/~rjliao/imgs/protein_sample.png)
-
-## Cite
-Please cite our paper if you use this code in your research work.
-
-## Questions/Bugs
-Please submit a Github issue or contact rjliao@cs.toronto.edu if you have any questions or find any bugs.
