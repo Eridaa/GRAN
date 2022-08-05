@@ -3,6 +3,8 @@
 
 PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks, tested for generating street networks
 
+##Run the Dataset creation from osmnx.ipynb notebook for creating custom datasets.
+
 ```
 @inproceedings{liao2019gran,
   title={Efficient Graph Generation with Graph Recurrent Attention Networks}, 
