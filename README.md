@@ -26,7 +26,7 @@ Other dependencies can be installed via
 ## Run Demos
 
 ### Train
-* To run the training of experiment ```X``` where ```X``` is one of {```gran_grid```, ```gran_DD```, ```gran_DB```, ```gran_lobster```}:
+* To run the training of experiment ```X``` where ```X``` is gran_city.yaml:
 
   ```python run_exp.py -c config/X.yaml```
   
